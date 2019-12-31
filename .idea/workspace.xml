@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a825bf78-6a2c-4168-9f55-bead8a9976d4" name="Default Changelist" comment="" />
+    <list default="true" id="a825bf78-6a2c-4168-9f55-bead8a9976d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ViITcRMU2LEd2WENgMQKvtchHy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,13 +30,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.fib">
     <configuration name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DAA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,8 +65,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="fib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DAA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DAA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fibonacci.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fib" />
+        <item itemvalue="Python.fibonacci" />
         <item itemvalue="Python.factorial" />
       </list>
     </recent_temporary>
@@ -80,7 +139,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577729497137</updated>
-      <workItem from="1577729500156" duration="1256000" />
+      <workItem from="1577729500156" duration="3491000" />
+      <workItem from="1577794589709" duration="1868000" />
     </task>
     <servers />
   </component>
@@ -88,24 +148,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="865" height="261" key="GridCell.Tab.0.bottom" timestamp="1577729968785">
+    <state width="865" height="261" key="GridCell.Tab.0.bottom" timestamp="1577802061936">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="865" height="261" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1577729968785" />
-    <state width="865" height="261" key="GridCell.Tab.0.center" timestamp="1577729968785">
+    <state width="865" height="261" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1577802061936" />
+    <state width="865" height="261" key="GridCell.Tab.0.center" timestamp="1577802061935">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="865" height="261" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1577729968785" />
-    <state width="865" height="261" key="GridCell.Tab.0.left" timestamp="1577729968784">
+    <state width="865" height="261" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1577802061935" />
+    <state width="865" height="261" key="GridCell.Tab.0.left" timestamp="1577802061935">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="865" height="261" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1577729968784" />
-    <state width="865" height="261" key="GridCell.Tab.0.right" timestamp="1577729968785">
+    <state width="865" height="261" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1577802061935" />
+    <state width="865" height="261" key="GridCell.Tab.0.right" timestamp="1577802061936">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="865" height="261" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1577729968785" />
+    <state width="865" height="261" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1577802061936" />
+    <state x="1001" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1577794594239">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="1001" y="342" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1577794594239" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DAA$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1577729968766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DAA$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1577801527912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DAA$fib.coverage" NAME="fib Coverage Results" MODIFIED="1577802061918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/DAA$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1577794829936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
