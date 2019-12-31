@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a825bf78-6a2c-4168-9f55-bead8a9976d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linear_Search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,6 +42,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -42,7 +57,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fib">
+  <component name="RunManager" selected="Python.Linear_Search">
+    <configuration name="Linear_Search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DAA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linear_Search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DAA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,6 +148,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Linear_Search" />
         <item itemvalue="Python.fib" />
         <item itemvalue="Python.fibonacci" />
         <item itemvalue="Python.factorial" />
@@ -140,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577729497137</updated>
       <workItem from="1577729500156" duration="3491000" />
-      <workItem from="1577794589709" duration="1868000" />
+      <workItem from="1577794589709" duration="3613000" />
     </task>
     <servers />
   </component>
@@ -148,28 +186,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="865" height="261" key="GridCell.Tab.0.bottom" timestamp="1577802061936">
+    <state x="541" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577803175170">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="865" height="261" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1577802061936" />
-    <state width="865" height="261" key="GridCell.Tab.0.center" timestamp="1577802061935">
+    <state x="541" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1577803175170" />
+    <state width="865" height="261" key="GridCell.Tab.0.bottom" timestamp="1577803862742">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="865" height="261" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1577802061935" />
-    <state width="865" height="261" key="GridCell.Tab.0.left" timestamp="1577802061935">
+    <state width="865" height="261" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1577803862742" />
+    <state width="865" height="261" key="GridCell.Tab.0.center" timestamp="1577803862742">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="865" height="261" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1577802061935" />
-    <state width="865" height="261" key="GridCell.Tab.0.right" timestamp="1577802061936">
+    <state width="865" height="261" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1577803862742" />
+    <state width="865" height="261" key="GridCell.Tab.0.left" timestamp="1577803862741">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="865" height="261" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1577802061936" />
+    <state width="865" height="261" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1577803862741" />
+    <state width="865" height="261" key="GridCell.Tab.0.right" timestamp="1577803862742">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="865" height="261" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1577803862742" />
     <state x="1001" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1577794594239">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1001" y="342" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1577794594239" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DAA$Linear_Search.coverage" NAME="Linear_Search Coverage Results" MODIFIED="1577803862715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DAA$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1577801527912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DAA$fib.coverage" NAME="fib Coverage Results" MODIFIED="1577802061918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/DAA$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1577794829936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
